@@ -1,0 +1,78 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar, 
+.navbar-toggler {
+    background-color: #fff;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #1C1C1C;
+    color: #00B8FC;
+}
+
+#cabecalho .nav .nav-link,
+.nav-brand,
+.navbar-brand:hover {
+    color: #1C1C1C;
+}
+
+.back-img-cont h2 {
+    font-size: 3.5em;
+}
+
+.color-blue {
+    color: #00B8FC;
+}
+
+.back-white {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: "Anta", sans-serif;
+}
+
+.back-img {
+    background-image: url(/image/logitechg-img-background.jpeg);
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+}
+
+#sobre-nos,
+#serie,
+.card-body {
+    background-color: #1C1C1C;
+}
+
+.divisor {
+    border-top: 1px solid #00B8FC;
+    width: 50%;
+    margin: 16px auto;
+}
+
+#produtos .nav .nav-link,
+.nav-brand,
+.navbar-brand:hover {
+    color: #1C1C1C;
+    border: none;
+}
+
+#produtos .nav .nav-link.active {
+    border-bottom: solid #00B8FC;
+}
+
+.nav-underline {
+    border-bottom: 1px solid #1C1C1C;
+}
+
+#serie a {
+    color: #00B8FC;
+    text-decoration: none;
+}
+
+#serie a:hover {
+    text-decoration: underline;
+}
