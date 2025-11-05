@@ -7,14 +7,16 @@ body {
     background-color: #fff;
 }
 
-#cabecalho .nav .nav-link.active{
+#cabecalho .nav .nav-link.active, 
+#fale-conosco button {
     background-color: #1C1C1C;
     color: #00B8FC;
 }
 
 #cabecalho .nav .nav-link,
 .nav-brand,
-.navbar-brand:hover {
+.navbar-brand:hover,
+#fale-conosco .bi {
     color: #1C1C1C;
 }
 
@@ -75,4 +77,22 @@ body {
 
 #serie a:hover {
     text-decoration: underline;
+}
+
+.fale-conosco-frase {
+    font-size: 0.6em;
+    text-align: center;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button{
+
 }
